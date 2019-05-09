@@ -1,7 +1,7 @@
 {
   "name": "@blitzbank/create-dashboard",
   "description": "Initialize the Blitzbank Dashboard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dennis Reimann <mail@dennisreimann.de> (https://dennisreimann.de)",
   "homepage": "https://github.com/dennisreimann/blitzbank-dashboard",
   "bugs": "https://github.com/dennisreimann/blitzbank-dashboard/issues",

@@ -13,7 +13,7 @@ write('./package.json', `{
   "private": true,
   "name": "blitzbank-dashboard-install",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full node dashboard",
   "scripts": {
     "start": "blitzbank"
   },
@@ -52,9 +52,12 @@ LND_MACAROON_BASE64=
 AUTH_USERNAME=
 AUTH_PASSWORD=
 
-# change these if you alreasdy have another app running on these ports
+# the paths to your SSL certificate and key
+SSL_CERT_PATH=
+SSL_KEY_PATH=
+
+# change this if you already have another app running on port 4000
 # SERVER_PORT=4000
-# SOCKET_PORT=4001
 `)
 
 console.log('📦  Installing dependencies …')
