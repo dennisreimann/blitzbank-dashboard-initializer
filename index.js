@@ -40,13 +40,13 @@ BITCOIND_RPC_PASSWORD=
 
 # the base64 encoded string of the tls.cert file.
 # retrieve this by running this command and providing the path to LND's tls.cert:
-# $ base64 /root/.lnd/tls.cert
-LND_CERT_BASE64=
+# $ base64 /root/.lnd/tls.cert | tr -d '\n'
+LND_CERT_BASE64=""
 
 # the base64 encoded string of the macaroon file.
 # retrieve this by running this command and providing the path to LND's admin.macaroon:
-# $ base64 /root/.lnd/admin.macaroon
-LND_MACAROON_BASE64=
+# $ base64 /root/.lnd/data/chain/bitcoin/mainnet/admin.macaroon | tr -d '\n'
+LND_MACAROON_BASE64=""
 
 # the credentials for the dashboard and API requests
 AUTH_USERNAME=
